@@ -1,3 +1,5 @@
+/* RESET */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 
 * {
@@ -7,6 +9,24 @@
   font-family: 'Inter', sans-serif;
 }
 
+ul {
+  list-style: none; /* Tira as bolinhas das listas */
+}
+
+a {
+  text-decoration: none; /* Tira as linhas dos links */
+  color: black;
+}
+
+button {
+  border: none;
+  background-color: #0187a7;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+  
+/* MOBILE */
+
 header {
   background-color: #36bd6a;
   box-shadow: 0px 3px 10px #a09d9d;
@@ -14,7 +34,39 @@ header {
 
 .nav-bar {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 6rem;
+  padding: 1.5rem 4rem;
 }
 
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.button-link {
+  font-weight: 500;
+  font-size: 0.9rem; /* alterar pra fazer com que todos os links dentro de buttons tenham essas propriedades */ 
+}
+
+/* MEDIUM DESKTOP */
+
+@media(min-width:767px) and (max-width: 1199px) {
+  
+  .nav-bar {
+    padding: 1.5rem 6rem;
+  }
+  
+  .nav-list ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin: 0 15px; /* cima, direita, baixo, esquerda */
+  }
+  
+  .button-link {
+    font-size: 1.1rem;
+  }
+}
