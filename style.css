@@ -1,6 +1,8 @@
-/* RESET */
+/* FONTS */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+/* RESET */
 
 * {
   margin: 0;
@@ -24,6 +26,30 @@ button {
   padding: 10px 15px;
   border-radius: 5px;
 }
+
+/* VARIABLES */
+  
+:root {
+  --header-height: 4.5rem;
+  /* colors */
+  --hue: 159;
+  /*159*/
+  /* HSL color mode */
+  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-alt: hsl(var(--hue) 57% 53%);
+  --title-color: hsl(var(--hue) 41% 10%);
+  --text-color: hsl(0 0% 46%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0 0% 98%);
+
+  /* Media Queries */
+  --title-font-size: 1.875rem;
+  --p-font-size: 1rem;
+
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'DM Sans', sans-serif;
+}
   
 /* MOBILE */
 
@@ -36,7 +62,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 4rem;
+  padding: 1.5rem 2rem;
 }
 
 .nav-link {
@@ -44,9 +70,15 @@ header {
   font-weight: 400;
 }
 
-.button-link {
+.button-link,
+.icon-menu {
   font-weight: 500;
-  font-size: 0.9rem; /* alterar pra fazer com que todos os links dentro de buttons tenham essas propriedades */ 
+  font-size: 1.6rem; 
+}
+
+.desktop-button,
+.nav-list {
+  display: none;
 }
 
 /* MEDIUM DESKTOP */
