@@ -59,10 +59,10 @@ header {
 }
 
 .nav-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem 2rem;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 1.5rem 6rem;
 }
 
 .nav-link {
@@ -78,27 +78,30 @@ header {
 
 .desktop-button,
 .nav-list {
-  display: none;
+  display:none;
 }
 
 /* MEDIUM DESKTOP */
 
-@media(min-width:767px) and (max-width: 1199px) {
-  
+
+/* @media(min-width:767px) and (max-width: 1199px) {
+
   .nav-bar {
-    padding: 1.5rem 6rem;
+    
   }
   
   .nav-list ul {
     display: flex;
     justify-content: center;
   }
-  
+
   .nav-item {
-    margin: 0 15px; /* cima, direita, baixo, esquerda */
+    margin: 0 15px;
+    /* cima, direita, baixo, esquerda 
   }
-  
+
   .button-link {
     font-size: 1.1rem;
   }
-}
+
+} */
