@@ -108,7 +108,7 @@ header {
     display:none;
   }
   
-  .desktop-button
+  .desktop-button,
   .nav-list {
     display:block;
   }
