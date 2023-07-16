@@ -62,7 +62,7 @@ header {
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding: 1.5rem 6rem;
+  padding: 1.5rem 2rem;
 }
 
 .nav-link {
@@ -84,7 +84,7 @@ header {
 /* MEDIUM DESKTOP */
 
 
-/* @media(min-width:767px) and (max-width: 1199px) {
+ @media(min-width:767px) and (max-width: 1199px) {
 
   .nav-bar {
     
@@ -97,11 +97,20 @@ header {
 
   .nav-item {
     margin: 0 15px;
-    /* cima, direita, baixo, esquerda 
+    /* cima, direita, baixo, esquerda */
   }
 
   .button-link {
     font-size: 1.1rem;
   }
+  
+  .icon-menu {
+    display:none;
+  }
+  
+  .desktop-button
+  .nav-list {
+    display:block;
+  }
 
-} */
+} 
