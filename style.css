@@ -84,9 +84,7 @@ header {
 /* MEDIUM DESKTOP */
 
 
- @media(min-width:767px) and (max-width: 1199px) {
-
-  
+ @media(min-width:767px) {
   .nav-list ul {
     display: flex;
     justify-content: center;
