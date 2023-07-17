@@ -75,10 +75,8 @@ header {
 .icon-menu {
   font-weight: 500;
   font-size: 1.6rem;
-  color:black;
-  background:none;
-  display:inline;
-}
+  cursor:pointer;
+ }
 
 .desktop-button,
 .nav-list {
