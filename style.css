@@ -25,6 +25,7 @@ button {
   background-color: #0187a7;
   padding: 10px 15px;
   border-radius: 5px;
+  cursor:pointer;
 }
 
 /* VARIABLES */
@@ -74,7 +75,8 @@ header {
 .icon-menu {
   font-weight: 500;
   font-size: 1.6rem;
-  cursor:pointer;
+  color:black;
+  background:none;
 }
 
 .desktop-button,
