@@ -86,9 +86,6 @@ header {
 
  @media(min-width:767px) and (max-width: 1199px) {
 
-  .nav-bar {
-    
-  }
   
   .nav-list ul {
     display: flex;
