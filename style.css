@@ -109,3 +109,9 @@ header {
   }
 
 } 
+
+@media(min-width:1200px) {
+  .desktop-button {
+    display:block;
+  }
+}
