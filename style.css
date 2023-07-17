@@ -81,8 +81,16 @@ header {
   display:none;
 }
 
-/* MEDIUM DESKTOP */
+/* Media Querie Screen: 
+    min-width:
+    1281px large desktops 
+    1025px laptops, desktops
+    768px tablets, ipads
+    481px low resolution tablets, mobiles
+    320px most of the smartphones
+*/
 
+/* MEDIUM DESKTOP */
 
  @media(min-width:767px) {
   .nav-list ul {
